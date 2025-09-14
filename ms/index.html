@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>MS Live Player</title>
+  <title>MS LIVE Player</title>
   <style>
     :root{--bg:#071025;--card:#0b1320;--muted:#9fb0bf}
     html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial}
@@ -25,8 +25,8 @@
     <header>
       <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40'><rect width='40' height='40' rx='8' fill='%2306b6d4'/><polygon points='14,10 30,20 14,30' fill='white'/></svg>" alt="logo" width="40" height="40">
       <div>
-        <h1>MS Live Player</h1>
-        <p class="">Use <code>?url=</code> with an HLS (.m3u8) or direct mp4 URL.</p>
+        <h1>MS LIVE Player</h1>
+        <p class="small">Use <code>?url=</code> with an HLS (.m3u8) or direct mp4 URL. Example: <em>?url=</em></p>
       </div>
     </header>
 
@@ -36,7 +36,7 @@
 
     <div class="info">
       <div id="streamUrl" class="url">No stream provided — add ?url=...</div>
-      
+      <a id="openBtn" class="btn" href="#" target="_blank" rel="noopener">Open raw URL</a>
       <a id="reloadBtn" class="btn" href="#">Reload</a>
     </div>
 
